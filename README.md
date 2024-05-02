@@ -1,41 +1,18 @@
-# abcd12345_9103_tut4
-My first repository for IDEA9103
+# Week8Quiz_9103_tut4
 
-This is my first local change to the repo!
+_**Part 1: Imaging Technique Inspiration**_
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+![An image of artwork01](assets/crystal-1-10a.jpg.webp)
 
-**Bold Text** or __Bold Text__
+![An image of artwork01](assets/crystal-1-9a.jpg.webp)
 
-*Italics Text* or _Italics Text_
+As our group chose to emulate the _Wheel of Fortune_, I was inspired by a group of flower-printed artworks from Japan. They remind me of the technique of a kaleidoscope. There are some similarities between these two works, as both use patterns to decorate around centers to complete the images. They also use petals to simulate lines and ellipses. I wanted to learn how to construct patterns like these because they have an overall sense of harmony and regularity that isn't overpowering, even though the size and color change dynamically.
 
-- Item 1
-- Item 2
-- Item 3
-  - Subitem 1
-  - Subitem 2
+_**Part 2: Coding Technique Exploration**_
 
-1. First Item
-1. Second Item
-1. Third Item
+The original painting features many colorful circles with different patterns. I found a set of code on the internet that shows regular shapes radiating outward from a center, which is similar to my inspiration from Part 1. Using the function ffl(x, y, d, ang, n) generates a polygon with a specified number of sides, rotation angle, and size. The polygon is dynamically created based on these parameters. The functions push() and pop() are used to save and restore the current drawing style settings and transformations. Then, the function vertex() adjusts the radius and creates vertices to form a star-like shape.
+[Example Code Link](https://openprocessing.org/sketch/2150902)
+![An image of artwork03](assets/01.png)
 
-[Link Text](http://www.google.com/)
+![An image of artwork04](assets/02.png)
 
-![An image of a cat](https://placekitten.com/200/300)
-
-![An image of the Mona Lisa](assets/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
-
-```
-function helloworld()
-console.log("Hello,world!");
-```
-
-Add a for loop to the `draw()`
-function.
-
-> This a blockquote
